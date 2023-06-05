@@ -1,8 +1,37 @@
+:root {
+  --color-primary: #212121;
+  --color-logo: #2e2f42;
+  --color-with: #ffffff;
+  --color-secondery: #757575;
+}
+
 body {
-font-family: 'Roboto', sans-serif;
-font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
+}
+
+.nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  word-spacing: -4px;
+  letter-spacing: 0.03em;
+  color: var(--color-logo);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.text-logo {
+  color: #4d5ae5;
 }
