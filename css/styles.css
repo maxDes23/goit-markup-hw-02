@@ -14,10 +14,8 @@ ul {
   list-style: none;
 }
 
-.nav {
-  height: 80px;
+.head {
   display: flex;
-  align-items: center;
 }
 
 .logo {
@@ -34,4 +32,8 @@ ul {
 
 .text-logo {
   color: #4d5ae5;
+}
+
+.nav {
+  display: flex;
 }
