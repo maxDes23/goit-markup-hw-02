@@ -1,6 +1,8 @@
 :root {
   --color-title: #2e2f42;
   --color-text: #434455;
+  --color-link: #434455;
+  --color-white: #ffffff;
 }
 
 body {
@@ -35,48 +37,84 @@ ul {
   text-transform: uppercase;
 }
 
-.color-logo {
+.accent {
   color: #4d5ae5;
 }
 
 .site-nav .link {
   color: var(--color-title);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .site-nav .link:hover {
   color: #404bbf;
 }
 
+.contact-link {
+  color: var(--color-link);
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* Hero */
+
+.hero-title {
+  color: var(--color-white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
 .button {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--color-white);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   width: 169px;
   height: 56px;
+  cursor: pointer;
 }
 
 .button:hover {
   background: #404bbf;
 }
 
-.hero-title {
-  color: #ffffff;
-}
 /* Опис */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .feature-list .title {
   color: var(--color-title);
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .feature-list .text {
   color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.5;
 }
 /* Чим ми займаємося */
 .section-title {
   color: var(--color-title);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
 }
 
 .work-list {
@@ -90,3 +128,14 @@ ul {
   color: var(--color-text);
 }
 /* Підвал сторінки */
+.accent-color {
+  color: var(--color-white);
+}
+
+.page-footer {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Портфоліо */
