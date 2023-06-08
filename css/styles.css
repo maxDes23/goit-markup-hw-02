@@ -1,21 +1,26 @@
 :root {
-  --color-primary: #212121;
-  --color-logo: #2e2f42;
-  --color-with: #ffffff;
-  --color-secondery: #757575;
+  --color-title: #2e2f42;
+  --color-text: #434455;
 }
 
 body {
+  background: #e5e5e5;
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-title);
 }
 
 ul {
   list-style: none;
-}
-
-.head {
-  display: flex;
 }
 
 .logo {
@@ -25,15 +30,63 @@ ul {
   line-height: 1.17;
   word-spacing: -4px;
   letter-spacing: 0.03em;
-  color: var(--color-logo);
+  color: var(--color-title);
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.text-logo {
+.color-logo {
   color: #4d5ae5;
 }
 
-.nav {
-  display: flex;
+.site-nav .link {
+  color: var(--color-title);
 }
+
+.site-nav .link:hover {
+  color: #404bbf;
+}
+
+.button {
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 169px;
+  height: 56px;
+}
+
+.button:hover {
+  background: #404bbf;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+/* Опис */
+.feature-list .title {
+  color: var(--color-title);
+}
+
+.feature-list .text {
+  color: var(--color-text);
+}
+/* Чим ми займаємося */
+.section-title {
+  color: var(--color-title);
+}
+
+.work-list {
+}
+/* Наша команда */
+.team-title {
+  color: var(--color-title);
+}
+
+.team-text {
+  color: var(--color-text);
+}
+/* Підвал сторінки */
