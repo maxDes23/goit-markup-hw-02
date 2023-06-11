@@ -15,6 +15,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.list {
+  list-style: none;
+}
+
 h1,
 h2,
 h3,
@@ -24,7 +28,7 @@ h6 {
   color: var(--color-title);
 }
 
-ul  {
+ul {
   list-style-type: none;
 }
 
