@@ -24,6 +24,10 @@ h6 {
   color: var(--color-title);
 }
 
+ul {
+  list-style: none;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -48,6 +52,11 @@ h6 {
   text-decoration: none;
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #404bbf;
+}
+
 .site-nav .link:active {
   color: var(--color-iris);
 }
@@ -67,6 +76,7 @@ h6 {
   color: var(--color-white);
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
 }
 
 .button {
@@ -79,13 +89,14 @@ h6 {
   cursor: pointer;
 }
 
-.button:hover {
-  background: #404bbf;
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 
 /* Опис */
 
-.feature-list .title {
+.feature .title {
   color: var(--color-title);
   font-size: 20px;
   line-height: 1.2;
@@ -101,11 +112,20 @@ h6 {
   color: var(--color-title);
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-.work-list {
-}
 /* Наша команда */
+.team-card {
+  background-color: #FFFFFF;
+}
+
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   color: var(--color-title);
   font-weight: 500;
