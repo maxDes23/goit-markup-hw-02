@@ -24,7 +24,7 @@ h6 {
   color: var(--color-title);
 }
 
-ul {
+ul li {
   list-style: none;
 }
 
@@ -44,7 +44,7 @@ ul {
   color: var(--color-title);
 }
 
-.site-nav .link {
+.link {
   color: var(--color-title);
   font-weight: 500;
   font-size: 16px;
@@ -52,8 +52,8 @@ ul {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
 
@@ -63,9 +63,15 @@ ul {
 
 .contact-link {
   color: var(--color-link);
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
 }
 /* Hero */
 .hero {
@@ -118,9 +124,8 @@ ul {
 
 /* Наша команда */
 .team-card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-
 
 .section-team {
   background-color: #f4f4fd;
