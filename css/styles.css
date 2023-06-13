@@ -24,6 +24,9 @@ h6 {
   color: var(--color-title);
 }
 
+ul {
+  list-style: none;
+}
 
 
 .logo {
