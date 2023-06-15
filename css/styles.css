@@ -98,7 +98,7 @@ h6 {
 .button {
   background: var(--color-iris);
   color: var(--color-white);
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -179,7 +179,7 @@ h6 {
 .btn-text {
   color: var(--color-iris);
   background-color: #f4f4fd;
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
