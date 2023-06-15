@@ -24,15 +24,15 @@ h6 {
   color: var(--color-title);
 }
 
- .list {
+.list {
   list-style: none;
 }
 
- .link {
+.link {
   text-decoration: none;
 }
 
-.logo  {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -172,6 +172,7 @@ h6 {
 .btn-text {
   color: var(--color-iris);
   background-color: #f4f4fd;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
