@@ -31,24 +31,35 @@ h6 {
 .link {
   text-decoration: none;
 }
+/* Header styles */
+.header {
+}
 
-.logo {
+.header-nav {
+}
+
+.header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  word-spacing: -4px;
   letter-spacing: 0.03em;
   color: var(--color-iris);
   text-decoration: none;
   text-transform: uppercase;
 }
 
+.header-list {
+}
+
+.header-item {
+}
+
 .accent {
   color: var(--color-title);
 }
 
-.link-nav {
+.header-link {
   color: var(--color-title);
   font-weight: 500;
   font-size: 16px;
@@ -56,8 +67,8 @@ h6 {
   text-decoration: none;
 }
 
-.link-nav:hover,
-.link-nav:focus {
+.header-link:hover,
+.header-link:focus {
   color: #404bbf;
 }
 
@@ -95,7 +106,7 @@ h6 {
   text-align: center;
 }
 
-.button {
+.hero-button {
   background: var(--color-iris);
   color: var(--color-white);
   font-family: inherit;
@@ -115,7 +126,7 @@ h6 {
 
 .feature .title {
   color: var(--color-title);
-   font-weight: 500;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
